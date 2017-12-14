@@ -12,9 +12,9 @@ monacoin.confの位置が標準通りなら、だいたい
 
 ## マイニング
 
-stratum+tcp://localhost:9456
-user: コイン受け取りアドレス
-pass: 何でも
+    stratum+tcp://localhost:9456
+    user: コイン受け取りアドレス
+    pass: 何でも
 
 で掘れます
 
@@ -22,5 +22,9 @@ pass: 何でも
 
 http://localhost:9456/ からノードやネットワークの状態が見られます。
 
-代替webインターフェイス
+### 代替webインターフェイス
+
+https://github.com/hardcpp/P2PoolExtendedFrontEnd
+
+これでweb-staticの中身を置きかえる
 
